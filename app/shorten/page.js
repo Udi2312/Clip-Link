@@ -58,9 +58,8 @@ fetch("/api/generate", requestOptions)
 
         <button onClick={generate} className='bg-purple-500 shadow-lg p-3 rounded-lg font-bold py-1 text-white my-3'>Generate</button>
     </div>
-    {generated && <code>
-        Your Link: <Link target = "_blank" href={generated}>{generated}</Link>
-    </code>
+    {generated && <> <span className='font-bold text-lg'>Your Link</span><code> <Link target = "_blank" href={generated}>{generated}</Link>
+    </code></>
     }
     </div>
   )

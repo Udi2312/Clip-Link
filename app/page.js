@@ -14,7 +14,7 @@ export default function Home() {
       </p>
       <div className='flex gap-3 justify-start'>
                 <Link href="/shorten"><button className='bg-purple-500 shadow-lg p-3 rounded-lg font-bold py-1 text-white'>Try Now</button></Link>
-                <Link href="/github"><button className='bg-purple-500 shadow-lg p-3 rounded-lg font-bold py-1 text-white'>Github</button></Link>
+                <Link target = "_blank" href="https://github.com/Udi2312/Clip-Link"><button className='bg-purple-500 shadow-lg p-3 rounded-lg font-bold py-1 text-white'>Github</button></Link>
             </div>
     </div>
 

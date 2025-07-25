@@ -15,7 +15,7 @@ const Navbar = () => {
 
             <li className='flex gap-3'>
                 <Link href="/shorten"><button className='bg-purple-500 shadow-lg p-3 rounded-lg font-bold py-1'>Try Now</button></Link>
-                <Link href="/github"><button className='bg-purple-500 shadow-lg p-3 rounded-lg font-bold py-1'>Github</button></Link>
+                <Link target = "_blank" href="https://github.com/Udi2312/Clip-Link"><button className='bg-purple-500 shadow-lg p-3 rounded-lg font-bold py-1'>Github</button></Link>
             </li>
         </ul>
     </nav>
